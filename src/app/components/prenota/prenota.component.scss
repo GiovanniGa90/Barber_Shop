@@ -1,0 +1,102 @@
+#prenota, #back {
+  background-color: white;
+}
+
+#accedi {
+  border-bottom: 1px solid rgb(229, 229, 229);
+ margin-bottom: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+
+
+}
+
+#accedi a, #back a {
+  padding: 22px;
+  text-decoration: white;
+  margin-right: 25px;
+}
+
+#accedi a:hover, #back a:hover {
+ text-decoration: underline;
+
+}
+
+.logo2 {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+#btn {
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid rgb(216, 216, 216);
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color:rgb(53, 111, 244) ;
+}
+
+.card p {
+  color: rgb(128, 128, 128);
+}
+
+.card span {
+  color:black;
+}
+
+.card h5 a  {
+  text-decoration: white;
+  text-align: right;
+
+
+}
+
+.card h5 a:hover{
+  text-decoration: underline;
+}
+
+.mappa .tagli {
+  color: rgb(128, 128, 128);
+}
+.connessioni {
+  text-decoration: white;
+}
+.connessioni:hover{
+  text-decoration: underline;
+}
+
+
+
+.moreLess {
+  margin-left: 35px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+#more5 {
+  line-height: 2em;
+}
+
+footer small {
+  text-align: center;
+}
+
+.limitTextHeight {
+  height: 20px;
+  overflow: hidden;
+}
+
+#back {
+  border-top: 1px solid rgb(229, 229, 229) ;
+}

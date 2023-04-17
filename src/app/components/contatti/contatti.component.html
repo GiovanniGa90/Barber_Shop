@@ -1,0 +1,47 @@
+<section class="contatti">
+  <app-navbar></app-navbar>
+  <div id="header" class="container-fluid">
+    <div class="row text-white ">
+      <h1 class="col-12 p-5 reveal"  id="testoHeader">Contattaci  </h1>
+    </div>
+  </div>
+
+<div class="container-fluid d-flex align-items-center feedback">
+  <div class="row px-5 py-3">
+    <div class=" col-md-6">
+      <img class="img-fluid mb-3" src="assets/img/rotella.png" alt="">
+    </div>
+    <div class=" col-md-6 form">
+      <h1>Lasciaci una recensione</h1>
+      <p>Utilizza il modulo sottostante per inviarci un'e-mail.</p>
+      <form >
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address: *</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email"
+            ngModel required email>
+          <!-- <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div> -->
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password: *</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="password" ngModel required>
+        </div>
+
+      <div class="mb-3">
+        <label for="floatingTextarea" class="form-label">Lascia il tuo commento: *</label>
+        <textarea class="form-control" cols="50" rows="5" id="floatingTextarea"></textarea>
+
+      </div>
+        <div>
+          <br>
+          <p >Non hai un account? <a class="text-dark link-light" [routerLink]="['/register']">Registrati</a></p>
+        </div>
+
+      </form>
+      <div class="d-flex justify-content-md-start align-items-center">
+        <a class=" nav-link button link-white text-center mb-3 buttonPrenota2" href="">Invia</a>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+</section>
